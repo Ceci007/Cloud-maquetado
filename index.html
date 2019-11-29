@@ -1,0 +1,376 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="fontawesome/css/all.min.css" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Educative | time to learn</title>
+  </head>
+  <body>
+    <div class="container">
+      <!-- NAVBAR -->
+      <nav class="navbar">
+        <img src="img/logo.png" alt="logo" class="logo" />
+        <div class="toggle">
+              <input type="checkbox" class="toggle__checkbox" id="nav-toggle" />
+              <label for="nav-toggle" class="toggle__button">
+                  <span class="toggle__icon" ></span>
+              </label>
+              <div class="toggle__background" >&nbsp;</div>
+              <nav class="toggle-nav">
+                <ul class="toggle-nav__list">
+                  <li class="toggle-nav__item"><a href="#">Categories</a></li>
+                  <div class="horizontal-line">&nbsp;</div>
+                  <li class="toggle-nav__item">
+                    <a class="toggle-nav__link"
+                      ><i class="far fa-window-restore"></i> Development<i
+                        class="fas fa-chevron-right"
+                      ></i
+                    ></a>
+                  </li>
+                  <li class="toggle-nav__item">
+                    <a class="toggle-nav__link"
+                      ><i class="fas fa-database"></i> Database<i
+                        class="fas fa-chevron-right"
+                      ></i
+                    ></a>
+                  </li>
+                  <li class="toggle-nav__item">
+                    <a class="toggle-nav__link"
+                      ><i class="fas fa-pencil-alt"></i> Design<i
+                        class="fas fa-chevron-right"
+                      ></i
+                    ></a>
+                  </li>
+                </ul>
+              </nav>
+        </div>
+        <div class="cart-nav">
+          <div class="cart-nav__icon-box">
+            <i class="fas fa-cart-arrow-down"></i>
+            <span class="cart-nav__notification">2</span>
+          </div>
+        </div>
+        <div class="dropdownmenu">
+          <a href="#" class="dropdown-title"
+            ><i class="fas fa-th"></i> Categories<i
+              class="fas fa-chevron-down"
+            ></i
+          ></a>
+        </div>
+        <div class="dropdown">
+          <ul class="dropdown__list">
+            <li class="dropdown__list-item">
+              <a class="dropdown__list-link"
+                ><i class="far fa-window-restore"></i> Development<i
+                  class="fas fa-chevron-right"
+                ></i
+              ></a>
+            </li>
+            <li class="dropdown__list-item">
+              <a class="dropdown__list-link"
+                ><i class="fas fa-database"></i> Database<i
+                  class="fas fa-chevron-right"
+                ></i
+              ></a>
+            </li>
+            <li class="dropdown__list-item">
+              <a class="dropdown__list-link"
+                ><i class="fas fa-pencil-alt"></i> Design<i
+                  class="fas fa-chevron-right"
+                ></i
+              ></a>
+            </li>
+          </ul>
+        </div>
+        <form action="#" class="search">
+          <input
+            type="text"
+            class="search__input"
+            placeholder="Search courses"
+          />
+          <button class="search__button">
+            <i class="fas fa-search"></i>
+          </button>
+        </form>
+        <nav class="user-nav">
+          <div class="user-nav__square-box">
+            <a href="#" class="user-nav__item">Instructor</a>
+          </div>
+          <div class="separator">&nbsp;</div>
+          <div class="user-nav__square-box">
+            <a href="#" class="user-nav__item">Courses</a>
+          </div>
+          <div class="user-nav__icon-box">
+            <i class="far fa-heart icon-red"></i>
+          </div>
+          <div class="user-nav__icon-box">
+            <i class="fas fa-bell"></i>
+            <span class="user-nav__notification">7</span>
+          </div>
+          <div class="user-nav__icon-box">
+            <i class="fas fa-cart-arrow-down"></i>
+            <span class="user-nav__notification">2</span>
+          </div>
+          <div class="user-nav__user">
+            <img
+              src="img/team-7.jpg"
+              alt="User photo"
+              class="user-nav__user-photo"
+            />
+          </div>
+        </nav>
+      </nav>
+
+      <!-- HEADER -->
+      <section class="header-box">
+        <header class="header">
+            <div class="header-content">
+                <h3 class="heading-3">Learn on your schedule</h3>
+                <h1 class="heading-1 margin-bottom-medium">More than 10,000 courses</h1>
+                <button class="btn btn-header">
+                    Learning Paths
+                </button>
+            </div>
+        </header>
+    </section>
+
+    <!-- HEADER -->
+    <section class="courses">
+      <div class="course-card">
+        <div class="course-img-box">
+          <img src="img/course-1.png" alt="course-1" />
+        </div>
+        <div class="course-card__body">
+          <h3 class="card-heading">JavaScript</h3>
+          <p class="name">Jane Doe</p>
+          <div class="rating">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star-half-alt"></i>
+            4.8
+          </div>
+          <p class="price">$15.99</p>
+          <button class="btn btn-card">Add to cart</button>
+        </div>
+      </div>
+
+      <div class="course-card">
+        <div class="course-img-box">
+          <img src="img/course-2.jpeg" alt="course-1" />
+        </div>
+        <div class="course-card__body">
+          <h3 class="card-heading">Node.Js</h3>
+          <p class="name">Jessica Miller</p>
+          <div class="rating">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star-half-alt"></i>
+            4.9
+          </div>
+          <p class="price">$19.99</p>
+          <button class="btn btn-card">Add to cart</button>
+        </div>
+      </div>
+
+      <div class="course-card">
+        <div class="course-img-box">
+          <img src="img/course-3.jpg" alt="course-1" />
+        </div>
+        <div class="course-card__body">
+          <h3 class="card-heading">CSS</h3>
+          <p class="name">Carl Jonas</p>
+          <div class="rating">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star-half-alt"></i>
+            <i class="far fa-star"></i>
+            3.7
+          </div>
+          <p class="price">$9.99</p>
+          <button class="btn btn-card">Add to cart</button>
+        </div>
+      </div>
+
+      <div class="course-card">
+        <div class="course-img-box">
+          <img src="img/course-4.jpg" alt="course-1" />
+        </div>
+        <div class="course-card__body">
+          <h3 class="card-heading">React</h3>
+          <p class="name">Jane Doe</p>
+          <div class="rating">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star-half-alt"></i>
+            4.6
+          </div>
+          <p class="price">$29.99</p>
+          <button class="btn btn-card">Add to cart</button>
+        </div>
+      </div>
+
+      <div class="course-card">
+        <div class="course-img-box">
+          <img src="img/course-5.jpg" alt="course-1" />
+        </div>
+        <div class="course-card__body">
+          <h3 class="card-heading">Sass</h3>
+          <p class="name">Paule Machuca</p>
+          <div class="rating">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="far fa-star"></i>
+            <i class="far fa-star"></i>
+            3.0
+          </div>
+          <p class="price">$12.99</p>
+          <button class="btn btn-card">Add to cart</button>
+        </div>
+      </div>
+
+      <div class="course-card">
+        <div class="course-img-box">
+          <img src="img/course-6.jpg" alt="course-1" />
+        </div>
+        <div class="course-card__body">
+          <h3 class="card-heading">Vue.Js</h3>
+          <p class="name">Romina Corvalan</p>
+          <div class="rating">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star-half-alt"></i>
+            4.8
+          </div>
+          <p class="price">$28.99</p>
+          <button class="btn btn-card">Add to cart</button>
+        </div>
+      </div>
+
+      <div class="course-card">
+        <div class="course-img-box">
+          <img src="img/course-7.jpg" alt="course-1" />
+        </div>
+        <div class="course-card__body">
+          <h3 class="card-heading">React Native</h3>
+          <p class="name">Emilio Villalba</p>
+          <div class="rating">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star-half-alt"></i>
+            4.8
+          </div>
+          <p class="price">$35.99</p>
+          <button class="btn btn-card">Add to cart</button>
+        </div>
+      </div>
+
+      <div class="course-card">
+        <div class="course-img-box">
+          <img src="img/course-8.png" alt="course-1" />
+        </div>
+        <div class="course-card__body">
+          <h3 class="card-heading">Angular</h3>
+          <p class="name">Romina Corvalan</p>
+          <div class="rating">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star-half-alt"></i>
+            4.5
+          </div>
+          <p class="price">$18.99</p>
+          <button class="btn btn-card">Add to cart</button>
+        </div>
+      </div>
+    </section>
+
+    <!-- REVIEWS -->
+    <section class="reviews">
+      <div class="reviews-box">
+        <div class="review-card">
+          <div class="user-review">
+            <div class="user-img-box">
+              <img src="img/team-2.jpg" />
+            </div>
+            <p class="review-name">Karen Snow</p>
+            <i class="fas fa-heartbeat"></i>
+          </div>
+          <p class="review-paragraph">
+            Cloud is a life saver. I don't have the time or money for a college education. 
+            My goal is to become a freelance web developer, and thanks to Cloud, I'm really close.
+          </p>
+        </div>
+  
+        <div class="review-card">
+          <div class="user-review">
+            <div class="user-img-box">
+              <img src="img/team-1.jpg" />
+            </div>
+            <p class="review-name">Erica Pauli</p>
+            <i class="fas fa-heartbeat"></i>
+          </div>
+          <p class="review-paragraph">
+            I believe in lifelong learning and Cloud is a great place to learn from experts. 
+            I've learned a lot and recommend it to all my friends.
+          </p>
+        </div>
+  
+        <div class="review-card">
+          <div class="user-review">
+            <div class="user-img-box">
+              <img src="img/team-4.jpg" />
+            </div>
+            <p class="review-name">John Smith</p>
+            <i class="fas fa-heartbeat"></i>
+          </div>
+          <p class="review-paragraph">
+            My children and I LOVE Cloud! The courses are fantastic and the instructors 
+            are so fun and knowledgeable. I only wish we found it sooner.
+          </p>
+        </div>
+      </div>
+
+      <div class="reviws-logos-box">
+        <div class="reviews__seenon-text">Trusted by</div>
+        <div class="reviews__seenon-logos">
+            <img src="img/booking.png" />
+            <img src="img/adidas.svg.png" />
+            <img src="img/pinterest.png" />
+        </div>
+      </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer class="footer">
+          <div class="margin-bottom-medium heading-4 heading-4--light">Contact us</div>
+          <form class="footer__form">
+              <input type="text" class="footer__input" placeholder="Enter your name." required="required">
+              <input type="email" class="footer__input" placeholder="Enter your email." required="required">
+              <textarea class="footer__input" placeholder="Add your message." rows="4" required="required"></textarea>
+              <input type="submit" class="btn-inline" value="Send Message">
+          </form>
+          <hr class="footer-line">
+          <p class="footer__text margin-top-medium">
+              Thanks for leaving a good rating to our courses!
+              &copy; 2020 by Cecilia Benitez. All rights reserved.
+          </p>
+    </footer>
+    </div>
+  </body>
+</html>
